@@ -11,7 +11,9 @@ const HeroSection = () => {
             </p>
         </div>
         <div className='col-span-5'>
-          <Image src="/images/HeroSection.png" alt="hero section image" width={300} height={300} />
+          <div className='rounded-full overflow-hidden border-4 border-[#181818] w-40 h-40 relative'>
+            <Image src="/images/HeroSection.png" alt="hero section image" className='object-cover w-70 h-70 mx-auto' width={300} height={300} />
+          </div>
         </div>
     </div>
   </section>
