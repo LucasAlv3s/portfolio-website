@@ -3,15 +3,15 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return ( <section>
-    <div className='grid grid-cols-1 lg:grid-cols-12'>
+    <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center'>
           <h1 className='text-white mb-4 text-4xl lg:text-6xl font-extrabold'>Lucas Alves</h1>
           <p className='text-[#ADB7BE] text-lg mb-6 lg:text-xl'>
-            E-commerce Analyst | Full-Stack Developer
+            E-commerce Analyst | Full-Stack Developer(Freelancer)
           </p>
           <div>
-            <button className='px-6 py-3 rounded-full mr-6 bg-white text-black hover:bg-slate-200'>Contrate-me</button>
-            <button className='px-6 py-3 rounded-full'>Download CV</button>
+            <button className='px-6 py-3 rounded-full mr-6 hover:bg-slate-300 dark:bg-white dark:text-black'>Contrate-me</button>
+            <button className='px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>Download CV</button>
           </div>
         </div>
         <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
