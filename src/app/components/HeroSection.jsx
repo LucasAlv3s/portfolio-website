@@ -10,8 +10,8 @@ const HeroSection = () => {
             E-commerce Analyst | Full-Stack Developer
           </p>
           <div>
-            <button className='px-6 py-3'>Contrate-me</button>
-            <button>Download CV</button>
+            <button className='px-6 py-3 rounded-full mr-6 bg-white text-black hover:bg-slate-200'>Contrate-me</button>
+            <button className='px-6 py-3 rounded-full'>Download CV</button>
           </div>
         </div>
         <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
